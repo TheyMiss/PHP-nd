@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+
+table { 
+    width: 100%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+}
+
+th {
+    padding: 15px;
+    width: 300px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(50, 173, 102);
+}
+
+td {
+    padding: 15px;
+    width: 300px;
+    color: rgb(133, 128, 128);
+}
